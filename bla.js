@@ -15,6 +15,7 @@ let maximum = 10
 let minimum = 1
 let player4 = Math.floor((Math.random()*(maxi-mini)+1)+mini);
 console.log(player4);
+let rice = 1;
 
 let addition = parseFloat(player + player2);
 console.log(addition);
@@ -33,8 +34,6 @@ if(addition == addition2) {
 
     alert(`player two has won ${addition2} and ${addition}`);
 }
-
-
 
 
 
